@@ -61,7 +61,7 @@ func ApplyControl(req openapi.ControlsAction) error {
 	defer controlsGuard.RUnlock()
 	controlExec, ok := controls[ctl.ActionID(req.GetId())]
 	if !ok {
-		log.Warn().Msgf("Unimplemented action:%d", req.GetId())
+		log.Error().Msgf("Unimplemented action:%d", req.GetId())
 		return nil
 	}
 	return controlExec([]byte(req.GetRequestPayload()))
