@@ -27,7 +27,7 @@ require (
 	github.com/opencontainers/runtime-spec v1.1.0
 	github.com/rs/zerolog v1.32.0
 	github.com/weaveworks/scope v1.13.2
-	google.golang.org/grpc v1.56.1
+	google.golang.org/grpc v1.56.3
 	gopkg.in/ini.v1 v1.67.0
 )
 
@@ -48,7 +48,7 @@ require (
 	github.com/godbus/dbus/v5 v5.0.4 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/gorilla/websocket v0.0.0-20160221213430-5c91b59efa23 // indirect
+	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.5 // indirect
 	github.com/hibiken/asynq v0.24.1 // indirect
